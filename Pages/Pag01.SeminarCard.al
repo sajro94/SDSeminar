@@ -105,10 +105,8 @@ page 50101 "CSD Seminar Card"
                     PromotedOnly = true;
                     ApplicationArea = All;
                     Caption = 'Show Comments';
-                    trigger OnAction()
-                    begin
-                        //Code to show Comments
-                    end;
+                    RunObject = page "CSD Seminar Comment Sheet";
+                    RunPageLink = "Table Name" = const(Seminar), "No." = field("No.");
                 }
             }
         }

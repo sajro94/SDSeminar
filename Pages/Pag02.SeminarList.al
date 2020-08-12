@@ -55,12 +55,12 @@ page 50102 "CSD Seminar List"
         {
             action("Com&ment")
             {
-                ApplicationArea = All;
-
-                trigger OnAction();
-                begin
-                    //Open comments
-                end;
+                RunObject = Page "CSD Seminar Comment LISt";
+                RunPageLink = "Table Name" = const(Seminar), "No." = field("No.");
+                Image = Comment;
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedOnly = true;
             }
         }
     }
