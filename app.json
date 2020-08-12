@@ -1,0 +1,28 @@
+{
+  "id": "832b5ab4-d373-4901-8f4b-1c08c5be7fcf",
+  "name": "SD Seminar",
+  "publisher": "D.E. Veloper FHP",
+  "version": "14.0.0.1",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://SDSeminar.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0",
+  "target": "Internal",
+  "features": ["TranslationFile"]
+}
