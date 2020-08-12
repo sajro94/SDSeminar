@@ -93,6 +93,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar - Field No. Series - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 4096966466 - Field 3808951907 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar,Seminar Registration,Posted Seminar Registration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Comment Line - Field Table Name - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 4096966466 - Field 3808951907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Comment Line - Field Table Name - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1944624769 - Action 2668132007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show Comments</source>
           <note from="Developer" annotates="general" priority="2"></note>
