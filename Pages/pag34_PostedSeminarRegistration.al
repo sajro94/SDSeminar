@@ -66,7 +66,7 @@ page 50134 "CSD Posted Seminar Reg."
             }
             part(SeminarRegistrationLines; "CSD Post Seminar Reg. Subpage")
             {
-                SubPageLink = "Document No." = Field ("No.");
+                SubPageLink = "Document No." = Field("No.");
                 ApplicationArea = All;
             }
             group("Seminar Room")
@@ -125,12 +125,12 @@ page 50134 "CSD Posted Seminar Reg."
             part("Seminar Details FactBox"; "CSD Seminar Details FactBox")
             {
                 ApplicationArea = All;
-                SubPageLink = "No." = Field ("Seminar No.");
+                SubPageLink = "No." = Field("Seminar No.");
             }
             part("Customer Details FactBox"; "Customer Details FactBox")
             {
                 Provider = SeminarRegistrationLines;
-                SubPageLink = "No." = Field ("Bill-to Customer No.");
+                SubPageLink = "No." = Field("Bill-to Customer No.");
                 ApplicationArea = All;
             }
             systempart("Links"; Links)
@@ -156,8 +156,8 @@ page 50134 "CSD Posted Seminar Reg."
                     Caption = 'Co&mments';
                     Image = Comment;
                     RunObject = page "CSD Seminar Comment List";
-                    RunPageLink = "No." = Field ("No.");
-                    RunPageView = where ("Table Name" = const ("Posted Seminar Registration"));
+                    RunPageLink = "No." = Field("No.");
+                    RunPageView = where("Table Name" = const("Posted Seminar Registration"));
                     ApplicationArea = All;
                 }
                 action("&Charges")
@@ -165,8 +165,23 @@ page 50134 "CSD Posted Seminar Reg."
                     Caption = '&Charges';
                     Image = Costs;
                     RunObject = Page "CSD Posted Seminar Charges";
-                    RunPageLink = "Document No." = Field ("No.");
+                    RunPageLink = "Document No." = Field("No.");
                     ApplicationArea = All;
+                }
+
+                action("&Navigate")
+                {
+                    Caption = '&Navigate';
+                    Image = Navigate;
+                    Promoted = True;
+                    PromotedCategory = PRocess;
+                    trigger OnAction();
+                    var
+                        Navigate: page Navigate;
+                    begin
+                        Navigate.SetDoc("Posting Date", "No.");
+                        Navigate.RUN;
+                    end;
                 }
             }
         }
