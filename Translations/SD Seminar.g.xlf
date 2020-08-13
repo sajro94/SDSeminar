@@ -1218,6 +1218,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Cue - Field Closed - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3795145397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Seminars</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Seminar - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3795145397 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Seminar - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3795145397 - Field 3972529724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Seminar - Field Seminar No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 997952810 - NamedType 1834765348" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is no participant to post.</source>
           <note from="Developer" annotates="general" priority="2"></note>
