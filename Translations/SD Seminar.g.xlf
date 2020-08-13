@@ -1198,10 +1198,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CSD Seminar Jnl.-Check Line - NamedType PostingDateTxt</note>
         </trans-unit>
+        <trans-unit id="Page 1944624769 - Action 1940178401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Card - Action Ledger Entries - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1944624769 - Action 2668132007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show Comments</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Card - Action Co&amp;mment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1944624769 - Action 103722640 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Registrations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Card - Action &amp;Registrations - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1030630441 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Comment Sheet</source>
